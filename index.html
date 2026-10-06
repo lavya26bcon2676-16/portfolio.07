@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Chen | 1st-Year CSE Student & Software Intern Candidate</title>
+  <meta name="description" content="Portfolio of a 1st-year B.Tech CSE student seeking Software Development Internships. Skilled in C, HTML/CSS/JS, modern AI developer tooling, and Git/GitHub.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-grid"></div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Alex.dev</span>
+        <span class="logo-cursor">_</span>
+        <span class="logo-bracket">&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#why-first-year" class="nav-link">Why 1st Year?</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#terminal-section" class="nav-link">C Terminal</a>
+        <a href="#toolkit" class="nav-link">Recruiter Toolkit</a>
+        <a href="#contact" class="nav-link nav-link-cta">Hire Me</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
+          <span class="theme-icon light-icon">☀️</span>
+          <span class="theme-icon dark-icon">🌙</span>
+        </button>
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle Mobile Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-badge-wrap">
+          <div class="status-badge pulse-badge">
+            <span class="status-dot"></span>
+            <span>Actively Seeking Summer/Fall 2026 Software Internships</span>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          First-Year CSE Undergrad.<br>
+          <span class="text-gradient">Relentless Builder</span> & Fast Learner.
+        </h1>
+
+        <p class="hero-description">
+          Hi, I'm <strong>Alex Chen</strong>, a 1st-year B.Tech Computer Science student. Grounded in <strong>C programming fundamentals</strong>, building responsive <strong>web applications</strong>, and utilizing <strong>AI developer tooling</strong> & <strong>Git</strong> to learn and ship code at senior velocity.
+        </p>
+
+        <!-- Skill Pills / Highlights -->
+        <div class="hero-tags">
+          <span class="tag"><i class="tag-icon">💻</i> 1st Year B.Tech CSE</span>
+          <span class="tag"><i class="tag-icon">⚙️</i> C Language & Algorithms</span>
+          <span class="tag"><i class="tag-icon">🌐</i> Modern HTML5 / CSS3</span>
+          <span class="tag"><i class="tag-icon">🤖</i> AI-Accelerated Dev Workflows</span>
+          <span class="tag"><i class="tag-icon">🐙</i> Git & GitHub Native</span>
+        </div>
+
+        <!-- Action CTAs -->
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+          <button id="openResumeModalBtn" class="btn btn-secondary">
+            <span>View 1-Page Resume</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </button>
+          <a href="#toolkit" class="btn btn-outline">
+            <span>Recruiter Toolkit</span>
+          </a>
+        </div>
+
+        <!-- Quick Proof Stats -->
+        <div class="hero-stats-grid">
+          <div class="stat-card">
+            <span class="stat-num">Year 1</span>
+            <span class="stat-label">High Trainability & Zero Ego</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Shipped Live Web Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Version Controlled on GitHub</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3x</span>
+            <span class="stat-label">AI-Assisted Learning Speed</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Hire a 1st Year Section -->
+    <section id="why-first-year" class="section why-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Value Proposition</span>
+          <h2 class="section-title">Why Hire a First-Year CSE Student?</h2>
+          <p class="section-subtitle">
+            Most companies look for 3rd or 4th years out of habit. Here is why hiring a motivated 1st-year gives your engineering team an unfair advantage.
+          </p>
+        </div>
+
+        <div class="grid grid-4 value-grid">
+          <div class="value-card glass-card">
+            <div class="card-icon-wrap icon-blue">
+              <span>⚡</span>
+            </div>
+            <h3>Zero Unlearning Needed</h3>
+            <p>
+              No rigid legacy habits. I adapt immediately to your team's code review style, architectural patterns, linting configs, and git branching models from day one.
+            </p>
+            <div class="card-footer-pill">High Adaptability</div>
+          </div>
+
+          <div class="value-card glass-card">
+            <div class="card-icon-wrap icon-purple">
+              <span>🤖</span>
+            </div>
+            <h3>AI-Augmented Velocity</h3>
+            <p>
+              I leverage modern AI tools (Copilot, LLMs, Cursor) for smart debugging, unit test bootstrapping, and documentation parsing—shipping code at senior speed while learning the fundamentals.
+            </p>
+            <div class="card-footer-pill">Modern Tooling Native</div>
+          </div>
+
+          <div class="value-card glass-card">
+            <div class="card-icon-wrap icon-emerald">
+              <span>🧠</span>
+            </div>
+            <h3>Grounded in C Basics</h3>
+            <p>
+              While many beginners jump straight to bloated frameworks, I study C fundamentals: memory management, pointers, and time complexity. I appreciate what actually happens on the CPU.
+            </p>
+            <div class="card-footer-pill">Computer Systems Foundation</div>
+          </div>
+
+          <div class="value-card glass-card">
+            <div class="card-icon-wrap icon-amber">
+              <span>🔥</span>
+            </div>
+            <h3>Hungry & High Ownership</h3>
+            <p>
+              Eager to tackle bug backlogs, internal tooling, documentation gaps, and UI polish tasks that senior engineers often don't have time for, delivering instant ROI.
+            </p>
+            <div class="card-footer-pill">Immediate Team ROI</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Technical Arsenal -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Capabilities</span>
+          <h2 class="section-title">Technical Skills & Workflows</h2>
+          <p class="section-subtitle">
+            An honest, transparent breakdown of what I can build with right now and how I apply each skill.
+          </p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="tabs-container">
+          <button class="tab-btn active" data-tab="all">All Skills</button>
+          <button class="tab-btn" data-tab="languages">Languages & Core</button>
+          <button class="tab-btn" data-tab="web">Frontend & Web</button>
+          <button class="tab-btn" data-tab="tools">Tools & AI</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Skill: C Language -->
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-header">
+              <span class="skill-icon">⚙️</span>
+              <div>
+                <h4 class="skill-name">C Programming</h4>
+                <span class="skill-level">Core CS Foundation</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Strong grasp of pointers, dynamic memory allocation (`malloc`, `free`), structs, algorithmic complexity, and building CLI data structure tools.
+            </p>
+            <div class="skill-tags">
+              <span>Pointers & Memory</span>
+              <span>Arrays & Structs</span>
+              <span>Algorithms</span>
+            </div>
+          </div>
+
+          <!-- Skill: HTML5 & Semantic Web -->
+          <div class="skill-card glass-card" data-category="web">
+            <div class="skill-header">
+              <span class="skill-icon">🌐</span>
+              <div>
+                <h4 class="skill-name">HTML5 & Semantic Web</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Building accessible, SEO-friendly, and structurally sound web foundations with clean semantics (nav, main, section, article, ARIA landmarks).
+            </p>
+            <div class="skill-tags">
+              <span>Semantic Elements</span>
+              <span>Accessibility (a11y)</span>
+              <span>SEO Basics</span>
+            </div>
+          </div>
+
+          <!-- Skill: Modern CSS3 -->
+          <div class="skill-card glass-card" data-category="web">
+            <div class="skill-header">
+              <span class="skill-icon">🎨</span>
+              <div>
+                <h4 class="skill-name">CSS3 & Responsive Design</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Mobile-first responsive layouts using CSS Flexbox & Grid, CSS custom properties (variables), media queries, smooth animations, and glassmorphism.
+            </p>
+            <div class="skill-tags">
+              <span>Flexbox & Grid</span>
+              <span>CSS Variables</span>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+
+          <!-- Skill: JavaScript Basics -->
+          <div class="skill-card glass-card" data-category="web">
+            <div class="skill-header">
+              <span class="skill-icon">⚡</span>
+              <div>
+                <h4 class="skill-name">JavaScript (ES6+)</h4>
+                <span class="skill-level">Actively Learning & Building</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              DOM manipulation, event listeners, LocalStorage API, modern array methods (`map`, `filter`), and building interactive UI widgets.
+            </p>
+            <div class="skill-tags">
+              <span>DOM APIs</span>
+              <span>Events & State</span>
+              <span>ES6 Syntax</span>
+            </div>
+          </div>
+
+          <!-- Skill: AI Developer Workflows -->
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-header">
+              <span class="skill-icon">🤖</span>
+              <div>
+                <h4 class="skill-name">AI Developer Tooling</h4>
+                <span class="skill-level">Power User</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Daily experience with GitHub Copilot, ChatGPT, and Claude for rapid code comprehension, edge-case generation, unit testing, and refactoring without blind copy-pasting.
+            </p>
+            <div class="skill-tags">
+              <span>Copilot & Cursor</span>
+              <span>Prompt Engineering</span>
+              <span>AI Debugging</span>
+            </div>
+          </div>
+
+          <!-- Skill: Git & GitHub -->
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-header">
+              <span class="skill-icon">🐙</span>
+              <div>
+                <h4 class="skill-name">Git & GitHub</h4>
+                <span class="skill-level">Daily Workflow</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Version control discipline: atomic commits, semantic commit messages, branching, pull requests, resolving merge conflicts, and publishing via GitHub Pages.
+            </p>
+            <div class="skill-tags">
+              <span>Branching & PRs</span>
+              <span>Commit Hygiene</span>
+              <span>GitHub Pages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Showcase -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Proof of Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Real code, live demonstrations, and thoughtful engineering. Click "Try Live Demo" to interact right here.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: DevPulse Web App -->
+          <article class="project-card glass-card featured">
+            <div class="project-badge">Featured Web Application</div>
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type">Frontend Web Application</span>
+                <h3 class="project-title">DevPulse — Junior Developer Utility & Productivity Suite</h3>
+              </div>
+              <p class="project-description">
+                A browser-based developer utility designed for CS students and self-learners. Features a live code preview sandbox, a C-to-pseudocode logic helper, a JSON validator & formatter, and a focus timer with session tracking stored in LocalStorage.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item">✓ Zero external runtime frameworks — pure vanilla JavaScript & responsive CSS</div>
+                <div class="highlight-item">✓ Fully offline-capable with local browser persistence</div>
+                <div class="highlight-item">✓ Designed with clean accessibility and micro-interactions</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3 Custom Properties</span>
+                <span class="tech-badge">JavaScript (ES6+)</span>
+                <span class="tech-badge">LocalStorage API</span>
+                <span class="tech-badge">Git & GitHub</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" id="launchDevPulseModal">
+                  <span>🚀 Launch Live Demo</span>
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>View Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Personal Portfolio & Recruiter Deck -->
+          <article class="project-card glass-card">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type">Personal Web Project</span>
+                <h3 class="project-title">Interactive Intern Portfolio & Recruiter Deck</h3>
+              </div>
+              <p class="project-description">
+                The exact site you are browsing right now! Built from scratch to showcase engineering curiosity, clean modular code, dark/light theme switching, a simulated in-browser C terminal, and an ATS-formatted resume printer.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item">✓ 100/100 Lighthouse performance-first architecture</div>
+                <div class="highlight-item">✓ Built-in interactive C sandbox simulator with real output parsing</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3 Architecture</span>
+                <span class="tech-badge">Vanilla JS</span>
+                <span class="tech-badge">Responsive Grid</span>
+              </div>
+              <div class="project-actions">
+                <a href="#hero" class="btn btn-secondary btn-sm">
+                  <span>Browse Current Site</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>GitHub Source</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: C Algorithmic Data Structures Suite -->
+          <article class="project-card glass-card">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type">Systems & Fundamentals</span>
+                <h3 class="project-title">C Algorithm Suite & Dynamic Memory Sandbox</h3>
+              </div>
+              <p class="project-description">
+                A modular collection of procedural C programs implementing custom dynamic arrays (vector-like reallocations), binary search benchmarks, and a student record database with robust pointer safety and zero memory leaks.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-item">✓ Clean pointer manipulation with Valgrind-tested memory management</div>
+                <div class="highlight-item">✓ Executable right below in the simulated interactive terminal</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-badge">C Language (C99/C11)</span>
+                <span class="tech-badge">Dynamic Memory (malloc/free)</span>
+                <span class="tech-badge">CLI Interface</span>
+                <span class="tech-badge">Makefile</span>
+              </div>
+              <div class="project-actions">
+                <a href="#terminal-section" class="btn btn-primary btn-sm">
+                  <span>💻 Run in Terminal Below</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive In-Browser C Terminal Simulator -->
+    <section id="terminal-section" class="section terminal-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Interactive Proof</span>
+          <h2 class="section-title">In-Browser C Terminal Simulator</h2>
+          <p class="section-subtitle">
+            Test my understanding of C fundamentals live! Click any of the quick-run buttons or type a command in the terminal.
+          </p>
+        </div>
+
+        <!-- Terminal Quick Action Buttons -->
+        <div class="terminal-quick-cmds">
+          <span class="quick-label">Quick Commands:</span>
+          <button class="cmd-pill" data-cmd="help">help</button>
+          <button class="cmd-pill" data-cmd="cat about.txt">cat about.txt</button>
+          <button class="cmd-pill" data-cmd="run binary_search.c">run binary_search.c</button>
+          <button class="cmd-pill" data-cmd="run memory_alloc.c">run memory_alloc.c</button>
+          <button class="cmd-pill" data-cmd="run student_db.c">run student_db.c</button>
+          <button class="cmd-pill" data-cmd="clear">clear</button>
+        </div>
+
+        <!-- The Terminal Window -->
+        <div class="terminal-window">
+          <div class="terminal-titlebar">
+            <div class="terminal-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="terminal-title">alex@dev-machine: ~/c-projects</div>
+            <div class="terminal-status">bash — gcc 13.2.0</div>
+          </div>
+          <div class="terminal-body" id="terminalOutput">
+            <div class="terminal-line system-msg">
+              Welcome to the Interactive C Terminal Simulator v1.2<br>
+              Type <span class="highlight">help</span> to list commands, or click any command pill above.
+            </div>
+            <div class="terminal-line output-block">
+              <span class="prompt-user">alex@dev-machine</span>:<span class="prompt-path">~/c-projects</span>$ <span class="cmd-text">cat about.txt</span>
+            </div>
+            <div class="terminal-line response">
+              =======================================================<br>
+              STUDENT PROFILE: Alex Chen | 1st Year B.Tech CSE<br>
+              TARGET: Software Development Internship (Summer/Fall 2026)<br>
+              CORE FOCUS: C Programming, Web Development, AI Workflows<br>
+              PHILOSOPHY: Understand low-level fundamentals, ship fast.<br>
+              =======================================================
+            </div>
+          </div>
+          <div class="terminal-input-row">
+            <span class="prompt-user">alex@dev-machine</span>:<span class="prompt-path">~/c-projects</span>$&nbsp;
+            <input type="text" id="terminalInput" class="terminal-input" placeholder="Type a command (e.g. run binary_search.c, help)..." autocomplete="off" spellcheck="false">
+            <button id="terminalSubmitBtn" class="terminal-send-btn" title="Execute command">Enter ↵</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recruiter Toolkit Section -->
+    <section id="toolkit" class="section toolkit-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Recruiter Toolkit</span>
+          <h2 class="section-title">Hiring Manager Cheat Sheet</h2>
+          <p class="section-subtitle">
+            Everything you need to evaluate my candidacy in 60 seconds: ready-to-copy cold outreach, printable resume, and common interview answers.
+          </p>
+        </div>
+
+        <div class="toolkit-container glass-card">
+          <!-- Toolkit Nav Tabs -->
+          <div class="toolkit-tabs">
+            <button class="toolkit-tab-btn active" data-tool="cold-email">📨 1-Click Cold Outreach</button>
+            <button class="toolkit-tab-btn" data-tool="qa">💡 Interview Q&A Preview</button>
+            <button class="toolkit-tab-btn" data-tool="resume">📄 1-Page Resume Quickview</button>
+          </div>
+
+          <!-- Tool 1: Cold Email Template -->
+          <div class="toolkit-pane active" id="pane-cold-email">
+            <div class="toolkit-pane-header">
+              <div>
+                <h4>Cold Email Outreach Template</h4>
+                <p>Feel free to customize or copy this message directly to reach out to me or share with your team:</p>
+              </div>
+              <button class="btn btn-primary btn-sm" id="copyEmailBtn">
+                <span id="copyEmailBtnText">📋 Copy Email Template</span>
+              </button>
+            </div>
+            <pre class="code-preview-box" id="coldEmailContent">Subject: 1st-Year CSE Student + Builder interested in Software Engineering Intern role
+
+Hi [Engineering Lead / Recruiter Name],
+
+I’ve been following what you’re building at [Company Name] and really admire your engineering focus.
+
+I’m a first-year B.Tech CSE student looking for a Software Development Internship. While I don’t have formal industry experience yet, I am an active self-starter:
+
+• Languages & Web: Grounded in C programming fundamentals (algorithmic problem solving) and frontend basics (HTML/CSS/JS).
+• Projects: Shipped "DevPulse" (interactive web utility) and my personal portfolio with an interactive in-browser C runner.
+• Modern Workflow: Daily user of Git/GitHub version control, and experienced in leveraging developer AI tooling to debug and ship code at speed.
+
+I’m eager to take on junior bug fixes, UI improvements, or internal tooling tasks—anything where I can contribute immediately while learning from your team.
+
+Are you open to a brief 10-minute chat or reviewing a small take-home challenge?
+
+Best regards,
+Alex Chen
+GitHub: github.com/alexchen-dev
+Portfolio: alexchen.dev
+Email: alex.chen.cs@example.com</pre>
+          </div>
+
+          <!-- Tool 2: Interview Q&A Preview -->
+          <div class="toolkit-pane" id="pane-qa">
+            <div class="toolkit-pane-header">
+              <h4>Frequently Asked Screening Questions</h4>
+              <p>How I address common questions about hiring a first-year student:</p>
+            </div>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button class="accordion-trigger">
+                  <span>Q: Why should we hire a first-year student instead of an experienced senior?</span>
+                  <span class="accordion-chevron">▼</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    First-year students have high trainability and zero unlearning required. I am eager to adopt your team's specific coding guidelines, workflows, and culture. Plus, I come equipped with modern AI-augmented workflows, allowing me to deliver high ROI on bug fixes, documentation, and feature backlog tickets right away.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button class="accordion-trigger">
+                  <span>Q: How do you balance using AI developer tools without becoming dependent on them?</span>
+                  <span class="accordion-chevron">▼</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    I treat AI as a tireless pair programmer and research assistant, never as a replacement for critical thinking. That is precisely why I focus on C programming: it forces me to understand memory allocation, pointers, and CPU-level execution. I never commit code I cannot explain line-by-line.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button class="accordion-trigger">
+                  <span>Q: Tell me about a challenge you solved in your web application project.</span>
+                  <span class="accordion-chevron">▼</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    While building DevPulse, managing client-side state across tabs without heavy external libraries was challenging. I engineered a modular state sync pattern using the browser's `localStorage` and `storage` event listeners, creating an instant, zero-latency reactive experience.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button class="accordion-trigger">
+                  <span>Q: When are you available to start and what hours can you work?</span>
+                  <span class="accordion-chevron">▼</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    I am available for full-time internships during summer breaks (May - August) and 15-20 hours/week part-time or remote internships during the semester. I am comfortable with flexible time zones.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tool 3: Resume Quickview -->
+          <div class="toolkit-pane" id="pane-resume">
+            <div class="toolkit-pane-header">
+              <div>
+                <h4>ATS-Friendly 1-Page Resume</h4>
+                <p>Optimized for software development internship screeners.</p>
+              </div>
+              <div class="pane-actions">
+                <button class="btn btn-primary btn-sm" onclick="window.print()">
+                  <span>🖨️ Print / Save as PDF</span>
+                </button>
+              </div>
+            </div>
+            <div class="resume-preview-sheet">
+              <header class="resume-header">
+                <h2>ALEX CHEN</h2>
+                <p class="resume-sub">1st Year B.Tech Computer Science & Engineering | Seeking SDE Intern Roles</p>
+                <div class="resume-links">
+                  <span>alex.chen.cs@example.com</span> • 
+                  <span>github.com/alexchen-dev</span> • 
+                  <span>alexchen.dev</span> • 
+                  <span>+1 (555) 019-2834</span>
+                </div>
+              </header>
+
+              <section class="resume-block">
+                <h3 class="resume-heading">EDUCATION</h3>
+                <div class="resume-item">
+                  <div class="resume-item-header">
+                    <strong>Tech University — B.Tech in Computer Science and Engineering</strong>
+                    <span>2025 – 2029 (Expected)</span>
+                  </div>
+                  <div>Relevant Coursework: Problem Solving & Programming in C, Discrete Mathematics, Web Technologies Basics, Digital Logic Design</div>
+                </div>
+              </section>
+
+              <section class="resume-block">
+                <h3 class="resume-heading">TECHNICAL SKILLS</h3>
+                <ul class="resume-bullets">
+                  <li><strong>Languages:</strong> C (Memory Allocation, Pointers, Structs), HTML5, CSS3, JavaScript (ES6+ basics)</li>
+                  <li><strong>Developer Tools:</strong> Git, GitHub, VS Code, Linux/Bash basics, Markdown</li>
+                  <li><strong>AI-Augmented Development:</strong> GitHub Copilot, Prompt Engineering for Code Review & Test Generation, Debugging</li>
+                </ul>
+              </section>
+
+              <section class="resume-block">
+                <h3 class="resume-heading">TECHNICAL PROJECTS</h3>
+                <div class="resume-item">
+                  <div class="resume-item-header">
+                    <strong>DevPulse — Developer Utility & Productivity Suite</strong>
+                    <span>HTML5, CSS3, JavaScript (ES6+)</span>
+                  </div>
+                  <ul class="resume-bullets">
+                    <li>Engineered a responsive, zero-dependency developer utility featuring an interactive code runner, JSON validator, and Pomodoro timer.</li>
+                    <li>Implemented offline-first browser persistence using `localStorage` API with zero external runtime dependencies.</li>
+                    <li>Utilized Git for atomic version control, feature branches, and semantic pull request workflows.</li>
+                  </ul>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-item-header">
+                    <strong>Interactive In-Browser C Simulator & Personal Portfolio</strong>
+                    <span>HTML5, CSS3, JavaScript</span>
+                  </div>
+                  <ul class="resume-bullets">
+                    <li>Developed a responsive personal developer portfolio with light/dark theme toggle and interactive terminal emulator.</li>
+                    <li>Engineered simulated C execution engine illustrating memory allocation, binary search, and data structure operations.</li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-card glass-card">
+            <div class="avatar-box">
+              <div class="avatar-gradient">
+                <span class="avatar-initials">AC</span>
+              </div>
+              <div class="avatar-status">
+                <span class="status-dot"></span> Ready to build
+              </div>
+            </div>
+            <div class="about-quick-facts">
+              <div class="fact-item">
+                <span class="fact-icon">🎓</span>
+                <span>1st Year B.Tech CSE Undergrad</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">📍</span>
+                <span>Open to Remote & On-Site Roles</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">💡</span>
+                <span>Curious, disciplined & coachable</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-content">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">A 1st-Year CSE Student Driven by Curiosity & Code.</h2>
+            <p>
+              I am currently in the early semesters of my Computer Science degree, and instead of waiting until my 3rd or 4th year to begin programming real software, I chose to start building from Day 1.
+            </p>
+            <p>
+              My coursework is giving me a solid foundation in <strong>C programming</strong>, teaching me memory pointers, structures, and algorithmic complexity. Outside the classroom, I taught myself <strong>HTML5, CSS3, and JavaScript</strong> to build interactive web tools.
+            </p>
+            <p>
+              I believe modern developers should be <strong>AI-native</strong>: using AI tools to explain tricky bugs, write edge-case tests, and accelerate iteration, while maintaining a rigorous understanding of the underlying code.
+            </p>
+            <div class="about-actions">
+              <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Check My GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Get in Touch Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Ready to Add Value to Your Team</h2>
+          <p class="section-subtitle">
+            Whether you have an internship opening, a take-home coding challenge, or just advice for a first-year student, I would love to hear from you!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info glass-card">
+            <h3>Direct Contact Channels</h3>
+            <p>Reach out anytime. I typically reply within 24 hours.</p>
+
+            <div class="contact-list">
+              <a href="mailto:alex.chen.cs@example.com" class="contact-channel">
+                <span class="channel-icon">✉️</span>
+                <div>
+                  <span class="channel-label">Email</span>
+                  <span class="channel-val">alex.chen.cs@example.com</span>
+                </div>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-channel">
+                <span class="channel-icon">🐙</span>
+                <div>
+                  <span class="channel-label">GitHub</span>
+                  <span class="channel-val">github.com/alexchen-dev</span>
+                </div>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-channel">
+                <span class="channel-icon">💼</span>
+                <div>
+                  <span class="channel-label">LinkedIn</span>
+                  <span class="channel-val">linkedin.com/in/alexchen-cs</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="intern-ready-box">
+              <h4>🎯 Internship Preferences:</h4>
+              <ul>
+                <li><strong>Role:</strong> Software Development Intern (Frontend, Backend, or Generalist)</li>
+                <li><strong>Timeline:</strong> Summer 2026 / Fall 2026 / Immediate Part-Time</li>
+                <li><strong>Location:</strong> Remote / Hybrid / On-Site</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card glass-card">
+            <h3>Send a Message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name / Recruiter Name</label>
+                <input type="text" id="name" required placeholder="e.g. Sarah Connor">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Work Email</label>
+                <input type="email" id="email" required placeholder="s.connor@company.com">
+              </div>
+
+              <div class="form-group">
+                <label for="company">Company / Organization</label>
+                <input type="text" id="company" placeholder="e.g. TechCorp or Startup Labs">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message / Opportunity Details</label>
+                <textarea id="message" rows="4" required placeholder="Hey Alex, we have a software engineering intern opening and would love to chat..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitFormBtn">
+                <span>Send Message 🚀</span>
+              </button>
+            </form>
+            <div id="formSuccessToast" class="form-toast hidden">
+              ✓ Message queued! Opening your default email client with your message...
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Modal: DevPulse Web App Demo -->
+  <div class="modal-backdrop" id="devPulseModal" aria-hidden="true">
+    <div class="modal-dialog glass-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-badge">Interactive Project Demo</span>
+          <h3>DevPulse — Web Utility Playground</h3>
+        </div>
+        <button class="modal-close-btn" id="closeDevPulseModal" aria-label="Close modal">×</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-intro">
+          This is an interactive preview of the <strong>DevPulse</strong> utility application built using vanilla HTML, CSS, and JavaScript. Try the live utilities below:
+        </p>
+
+        <!-- DevPulse Sub-Apps -->
+        <div class="demo-tabs">
+          <button class="demo-tab-btn active" data-demo="sandbox">Live Code Sandbox</button>
+          <button class="demo-tab-btn" data-demo="c-visualizer">C Logic Visualizer</button>
+          <button class="demo-tab-btn" data-demo="timer">Pomodoro Focus Timer</button>
+        </div>
+
+        <!-- Demo 1: Live Code Sandbox -->
+        <div class="demo-pane active" id="demo-sandbox">
+          <div class="sandbox-container">
+            <div class="sandbox-input-box">
+              <label for="sandboxHtml">HTML / CSS Input:</label>
+              <textarea id="sandboxHtml" rows="5">&lt;div style="background: linear-gradient(135deg, #3b82f6, #8b5cf6); color: white; padding: 20px; border-radius: 12px; font-family: sans-serif; text-align: center;"&gt;
+  &lt;h3&gt;Hello from DevPulse!&lt;/h3&gt;
+  &lt;p&gt;Edit this text to see live reactive updates.&lt;/p&gt;
+  &lt;button style="background: white; color: #3b82f6; border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; cursor: pointer;"&gt;Click Me!&lt;/button&gt;
+&lt;/div&gt;</textarea>
+            </div>
+            <div class="sandbox-preview-box">
+              <label>Live Preview:</label>
+              <iframe id="sandboxPreview" title="Live Sandbox Output"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 2: C Logic Visualizer -->
+        <div class="demo-pane" id="demo-c-visualizer">
+          <div class="visualizer-container">
+            <div class="visualizer-controls">
+              <label>Select C Concept to Visualize:</label>
+              <div class="pill-group">
+                <button class="vis-pill active" data-concept="pointers">Pointers & Memory Address</button>
+                <button class="vis-pill" data-concept="binary-search">Binary Search Step-by-Step</button>
+                <button class="vis-pill" data-concept="malloc">malloc() vs free()</button>
+              </div>
+            </div>
+            <div class="concept-display" id="conceptDisplay">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 3: Pomodoro Focus Timer -->
+        <div class="demo-pane" id="demo-timer">
+          <div class="timer-container text-center">
+            <div class="timer-display" id="timerDisplay">25:00</div>
+            <p class="timer-status" id="timerStatus">Ready for deep work session</p>
+            <div class="timer-controls">
+              <button class="btn btn-primary btn-sm" id="startTimerBtn">Start Timer</button>
+              <button class="btn btn-secondary btn-sm" id="resetTimerBtn">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="modal-hint">Built with pure client-side vanilla JavaScript</span>
+        <button class="btn btn-outline btn-sm" id="closeModalFooterBtn">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive 1-Page Resume Modal -->
+  <div class="modal-backdrop" id="resumeModal" aria-hidden="true">
+    <div class="modal-dialog glass-card resume-modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="modal-badge">1-Page ATS Format</span>
+          <h3>Alex Chen — Software Engineering Intern Resume</h3>
+        </div>
+        <div class="modal-header-actions">
+          <button class="btn btn-primary btn-sm" onclick="window.print()">🖨️ Print / Download PDF</button>
+          <button class="modal-close-btn" id="closeResumeModal" aria-label="Close modal">×</button>
+        </div>
+      </div>
+      <div class="modal-body resume-modal-body">
+        <!-- Printable Resume Body (reused from toolkit) -->
+        <div class="resume-sheet">
+          <div class="resume-header">
+            <h2>ALEX CHEN</h2>
+            <div class="resume-contact-line">
+              <span>alex.chen.cs@example.com</span> | 
+              <span>github.com/alexchen-dev</span> | 
+              <span>linkedin.com/in/alexchen-cs</span> | 
+              <span>Portfolio: alexchen.dev</span>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-section-title">SUMMARY</h4>
+            <p class="resume-text">
+              First-Year B.Tech Computer Science student with a solid foundation in procedural programming (C) and modern responsive web development (HTML/CSS/JS). Daily user of Git/GitHub version control and skilled in leveraging developer AI tooling to accelerate debugging and code comprehension. Seeking a software development internship to solve real-world problems.
+            </p>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-section-title">EDUCATION</h4>
+            <div class="resume-entry">
+              <div class="entry-line">
+                <span class="entry-title">Tech University</span>
+                <span class="entry-date">2025 – 2029 (Expected)</span>
+              </div>
+              <div class="entry-sub">Bachelor of Technology (B.Tech) in Computer Science & Engineering | Current GPA: 3.8 / 4.0</div>
+              <div class="entry-detail">Relevant Coursework: Programming in C, Discrete Mathematics, Data Structures Fundamentals, Web Basics</div>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-section-title">TECHNICAL SKILLS</h4>
+            <div class="resume-skills-block">
+              <div><strong>Core Languages:</strong> C (Pointers, Dynamic Memory, Structs), HTML5, CSS3, JavaScript (ES6+)</div>
+              <div><strong>Developer Tools:</strong> Git, GitHub, VS Code, Command Line / Bash basics, Markdown</div>
+              <div><strong>AI Development:</strong> GitHub Copilot, Prompt Engineering, Automated Test & Debugging Workflows</div>
+              <div><strong>Web Concepts:</strong> Semantic Layouts, CSS Flexbox/Grid, Responsive Mobile-First Design, DOM Manipulation</div>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-section-title">PROJECTS</h4>
+            <div class="resume-entry">
+              <div class="entry-line">
+                <span class="entry-title">DevPulse — Developer Utility & Learning Suite</span>
+                <span class="entry-date">HTML5, CSS3, JavaScript, LocalStorage</span>
+              </div>
+              <ul class="resume-bullets">
+                <li>Built a client-side developer utility web application featuring a live code sandbox, C-logic visualizer, and focus timer.</li>
+                <li>Architected modular JavaScript with zero external frameworks, achieving instant load times and complete offline readiness.</li>
+                <li>Maintained clean GitHub commit hygiene with descriptive pull requests and atomic feature branches.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="entry-line">
+                <span class="entry-title">Interactive C Algorithms & Memory Suite</span>
+                <span class="entry-date">C Language, Gcc, Make</span>
+              </div>
+              <ul class="resume-bullets">
+                <li>Engineered clean C programs demonstrating pointer arithmetic, dynamic memory allocation with `malloc`/`free`, and binary search.</li>
+                <li>Built an interactive web terminal simulator allowing recruiters to test and inspect the C source code directly in the browser.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-section-title">ACTIVITIES & STRENGTHS</h4>
+            <ul class="resume-bullets">
+              <li>Active contributor to campus developer club; regularly assist peers with C debugging and Git basics.</li>
+              <li>High learning agility, strong communication skills, and disciplined daily commit habits.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast hidden">Copied to clipboard!</div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-name">Alex.dev</span>
+          <span class="logo-bracket">&gt;</span>
+        </a>
+        <p>1st Year B.Tech CSE Student • Seeking Software Internships</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Back to Top ↑</a>
+        <a href="#why-first-year">Why 1st Year?</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#toolkit">Recruiter Toolkit</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-copy">
+        <p>Designed & built from scratch with pure HTML, CSS & Vanilla JS. Zero heavy dependencies.</p>
+        <p class="copyright">© 2026 Alex Chen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
